@@ -1,6 +1,8 @@
 <div align="center">
-<h1>ApkAnalysis</h1>
+
+[//]: # (<h1>ApkAnalysis</h1>)
   <img src="https://raw.githubusercontent.com/AFanSKyQs/Apkanalysis/main/Bglogo.png" alt="LogoImg">
+<br>
  <img src="https://count.getloli.com/get/@:fansky_qs?theme=asoul" /><br>
 
 [![AFanSKyQs](https://img.shields.io/badge/GitHub_AFanSKyQs-yellowgreen?logo=github)](https://github.com/AFanSKyQs)
@@ -12,25 +14,30 @@
 <br>
 </div>
 
-## Project setup
+## 1.clone项目（选一个存放文件夹打开cmd）
+```
+git clone https://github.com/AFanSKyQs/Apkanalysis.git
+```
+## 2.安装项目依赖
+
 ```
 pnpm install
 ```
 
-### Compiles and hot-reloads for development
+## 3.用于开发环境的热重载和编译
 ```
 pnpm run serve
 ```
-
-### Compiles and minifies for production
+---
+### 生产环境的编译和压缩
 ```
 pnpm run build
 ```
 
-### Lints and fixes files
+### 生产环境的编译和压缩并查看包分析器报告
 ```
 pnpm run lint
 ```
 
-### Customize configuration
+### 自定义配置
 See [Configuration Reference](https://cli.vuejs.org/config/).
