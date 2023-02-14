@@ -15,7 +15,8 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
-      "webpack-env"
+      "webpack-env",
+      "node"
     ],
     "paths": {
       "@/*": [
@@ -31,6 +32,7 @@
     ]
   },
   "include": [
+    "./scripts",
     "./src/**/*",
     "src/**/*.ts",
     "src/**/*.tsx",

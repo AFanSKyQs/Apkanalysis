@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@element-plus/icons-vue': ^2.0.10
+  '@types/node': ^18.13.0
   '@typescript-eslint/eslint-plugin': ^5.4.0
   '@typescript-eslint/parser': ^5.4.0
   '@vue/cli-plugin-babel': ~5.0.0
@@ -21,6 +22,7 @@ specifiers:
   eslint-plugin-vue: ^8.0.3
   sass: ^1.32.7
   sass-loader: ^12.0.0
+  sax: ^1.2.4
   swiper: ^9.0.4
   ts-loader: ^9.4.2
   typescript: ~4.5.5
@@ -47,6 +49,7 @@ dependencies:
 
 devDependencies:
   '@element-plus/icons-vue': registry.npmmirror.com/@element-plus/icons-vue/2.0.10_vue@3.2.47
+  '@types/node': registry.npmmirror.com/@types/node/18.13.0
   '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin/5.51.0_ez27ypgegfn5jtjb2iiiwhux7e
   '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/5.51.0_sgaiclxgc5mltnpgmg7py4v6ca
   '@vue/cli-plugin-babel': registry.npmmirror.com/@vue/cli-plugin-babel/5.0.8_7ph6shlzjohpivu3kkpbskat2a
@@ -64,6 +67,7 @@ devDependencies:
   eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue/8.7.1_eslint@7.32.0
   sass: registry.npmmirror.com/sass/1.58.0
   sass-loader: registry.npmmirror.com/sass-loader/12.6.0_sass@1.58.0
+  sax: registry.npmmirror.com/sax/1.2.4
   ts-loader: registry.npmmirror.com/ts-loader/9.4.2_typescript@4.5.5
   typescript: registry.npmmirror.com/typescript/4.5.5
   vue-awesome-swiper: registry.npmmirror.com/vue-awesome-swiper/5.0.1_swiper@9.0.4+vue@3.2.47
@@ -8418,6 +8422,12 @@ packages:
       chokidar: registry.npmmirror.com/chokidar/3.5.3
       immutable: registry.npmmirror.com/immutable/4.2.4
       source-map-js: registry.npmmirror.com/source-map-js/1.0.2
+    dev: true
+
+  registry.npmmirror.com/sax/1.2.4:
+    resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/sax/-/sax-1.2.4.tgz}
+    name: sax
+    version: 1.2.4
     dev: true
 
   registry.npmmirror.com/schema-utils/2.7.0:
