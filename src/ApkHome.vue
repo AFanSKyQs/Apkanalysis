@@ -14,8 +14,8 @@
 <!--    <Features/>-->
 <!--        <Counter />-->
     <!--&lt;!&ndash;    <Video />&ndash;&gt;-->
-    <Testimonial/>
-    <ClientsLogo/>
+<!--    <Testimonial/>-->
+<!--    <ClientsLogo/>-->
     <Footer/>
   </div>
 </template>
@@ -29,8 +29,8 @@ import HomePage from './components/HomePage.vue'
 import Behavior from './components/Behavior.vue'
 import UploadApk from './components/UploadApk.vue'
 import Service from './components/Service.vue'
-// import HelloWorld from './components/ApkAnalysisHome.vue';
-// // import Video from './components/Video';
+import HelloWorld from './components/ApkAnalysisHome.vue'
+// import Video from './components/Video'
 import Footer from './components/Footer'
 import Features from './components/Features'
 import Counter from './components/Counter'
@@ -48,8 +48,8 @@ export default {
     BaseInfoOne,
     Permission,
     CertificationAndSDK,
-    // // Video,
-    // HelloWorld,
+    // Video,
+    HelloWorld,
     ClientsLogo,
     Testimonial,
     Counter,
@@ -78,7 +78,6 @@ nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
-
 </style>

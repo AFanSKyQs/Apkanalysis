@@ -60,6 +60,7 @@ devDependencies:
   '@vue/cli-service': registry.npmmirror.com/@vue/cli-service/5.0.8_5bjztexfc2ak3hksc7wffbux3m
   '@vue/eslint-config-standard': registry.npmmirror.com/@vue/eslint-config-standard/6.1.0_k3me5xgekiewohsnw3i2sa7vbe
   '@vue/eslint-config-typescript': registry.npmmirror.com/@vue/eslint-config-typescript/9.1.0_dgoclwbz6p3iiscciltwkpac2u
+  atropos: registry.npmmirror.com/atropos/1.0.2
   eslint: registry.npmmirror.com/eslint/7.32.0
   eslint-plugin-import: registry.npmmirror.com/eslint-plugin-import/2.27.5_kqzoyp6kxolczh7fn5z4hhsdyq
   eslint-plugin-node: registry.npmmirror.com/eslint-plugin-node/11.1.0_eslint@7.32.0
@@ -3362,6 +3363,13 @@ packages:
     name: at-least-node
     version: 1.0.0
     engines: {node: '>= 4.0.0'}
+    dev: true
+
+  registry.npmmirror.com/atropos/1.0.2:
+    resolution: {integrity: sha512-0RqyHfMyIhRXgnHuSQz2LVOE81jtAQ7EZTrF75ngiipklIsxajZ2vD042EXdiIEDs6eEAzfE10k+YhIbNl4/eg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/atropos/-/atropos-1.0.2.tgz}
+    name: atropos
+    version: 1.0.2
+    engines: {node: '>= 12.0.0'}
     dev: true
 
   registry.npmmirror.com/autoprefixer/10.4.13_postcss@8.4.21:
