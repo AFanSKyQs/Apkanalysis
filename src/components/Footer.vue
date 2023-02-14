@@ -13,31 +13,30 @@
                 <div class="footer-logo">
                   <a href="/"><img src="/assets/img/logo.png" alt=""></a>
                 </div>
-                <p>Lorem ipsum dolor sit ame consy ect etur adipisc de elit. Quisque act raqum nunc no dolor sit de
-                  amet.</p>
+                <p>一些描述。话语</p>
                 <!-- footer social area -->
-                <div class="footer-social-area">
-                  <ul class="social-icons social-icons-light nav"><li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"><i class="fa fa-google-plus"></i></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
+<!--                <div class="footer-social-area">-->
+<!--                  <ul class="social-icons social-icons-light nav"><li class="nav-item">-->
+<!--                    <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                      <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                      <a class="nav-link" href="#"><i class="fa fa-google-plus"></i></a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                      <a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                      <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>-->
+<!--                    </li>-->
 <!--                    <li><a href="#" target="_blank"><i class="fa fa-facebook-f"></i></a></li>-->
 <!--                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>-->
 <!--                    <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>-->
 <!--                    <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>-->
-                  </ul>
-                </div>
+<!--                  </ul>-->
+<!--                </div>-->
                 <!-- End of footer social area -->
               </div>
               <!--End of footer widget -->
@@ -54,11 +53,11 @@
                   <ul class="address-list">
                     <li>
                       <span><i class="fa  fa-phone-square"></i></span>
-                      888 999 0000
+                      电话号码
                     </li>
                     <li>
                       <span><i class="fa  fa-envelope"></i></span>
-                      needhelp@jironis.com
+                      邮箱
                     </li>
                     <li>
                       <span><i class="fa  fa-map"></i></span>
@@ -73,7 +72,7 @@
               <div class="footer-widget">
                 <!-- widget header -->
                 <div class="widget-header">
-                  <h5>Extra Links</h5>
+                  <h5>其他 Links</h5>
                 </div>
                 <!-- widget header -->
               </div>
@@ -82,20 +81,20 @@
                 <div class="extra-link">
                   <div class="link-left">
                     <ul>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Our Team</a></li>
-                      <li><a href="#">Features</a></li>
-                      <li><a href="#">Blog</a></li>
-                      <li><a href="#">How It Works</a></li>
+                      <li><a href="#">关于</a></li>
+                      <li><a href="#">我们的团队</a></li>
+                      <li><a href="#">特点</a></li>
+                      <li><a href="#">博客</a></li>
+                      <li><a href="#">工作原理</a></li>
                     </ul>
                   </div>
                   <div class="link-right">
                     <ul>
-                      <li><a href="#">Help</a></li>
-                      <li><a href="#">Support</a></li>
-                      <li><a href="#">Clients</a></li>
-                      <li><a href="#">Blog</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">帮助</a></li>
+                      <li><a href="#">支持</a></li>
+                      <li><a href="#">客户</a></li>
+                      <li><a href="#">博客</a></li>
+                      <li><a href="#">联系</a></li>
                     </ul>
                   </div>
                 </div>
@@ -107,11 +106,11 @@
                 <div class="widget-body">
                   <div class="twetter-post-inner">
                     <div class="footer-post-details">
-                      @Layerdrops Take your web design to new heights with jironix. <br><a href="http://yhdj58.tp8/JK">http://yhdj58.tp8/JK</a>
+                      喵喵喵喵喵喵喵喵~<br><a href="http://localhost:8080/">这里是一个链接位置~</a>
                     </div>
                     <div class="twetter-post">
                       <span><i class="fa fa-twitter"></i></span>
-                      Jironis - Nov 23, 2020
+                      Apkanalysis - 2023 - 2 - 15
                     </div>
                   </div>
                 </div>
@@ -122,7 +121,7 @@
       </div>
       <div class="footer-bottom">
         <div class="footer-text text-center">
-          <p>© copyright 2020 by Layerdrops.com</p>
+          <p>© copyright 2023 by AFanSkyQs</p>
         </div>
       </div>
 

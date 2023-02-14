@@ -1,20 +1,21 @@
+<!--suppress CssUnusedSymbol -->
 <template>
+  <section class="border" id='-'>
+  </section>
   <section class="pt-120 pb-115 app-shot-one" id="CertificationAndSDK">
               <div class="container-fluid">
                 <div class="row justify-content-center">
                     <div class="col-md-12 col-lg-8">
                         <!-- section title -->
                         <div class="section-title text-center">
-                            <h2>Jironis App Screens</h2>
-                            <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt <br> mollit lorem ipsum anim id est laborum perspiciatis unde.</p>
+                            <h2>APK调证信息、第三方SDK</h2>
+                            <p><a href="https://www.jianshu.com/p/fb23ee3066f9" target="_blank" rel="noopener">第三方SDK</a>数据、APK调证信息，包括调证的方法、调证的参数、调证的返回值等...</p>
                         </div>
                         <!-- End of section title -->
                     </div>
                 </div>
                   <div class="app-shot-one__carousel thm__owl-carousel">
-
                     <swiper :options="swiperOptions">
-
                       <swiper-slide>
                       <!-- slingle app image -->
                       <div class="item">
@@ -22,7 +23,6 @@
                       </div>
                       <!-- slingle app image -->
                       </swiper-slide>
-
                       <swiper-slide>
                       <!-- slingle app image -->
                       <div class="item">
@@ -46,7 +46,6 @@
                       </div>
                       <!-- slingle app image -->
                       </swiper-slide>
-
                       <swiper-slide>
                       <!-- slingle app image -->
                       <div class="item">
@@ -54,7 +53,6 @@
                       </div>
                       <!-- slingle app image -->
                       </swiper-slide>
-
                     </swiper>
                     <div class="swiper-pagination owl-dots"></div>
                   </div><!-- /.app-shot-one__carousel owl-theme owl-carousel -->
@@ -63,14 +61,9 @@
 </template>
 
 <script>
-  // import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper';
-  // import 'swiper/css/swiper.css';
-  import { Swiper, SwiperSlide/* rest swiper/vue API... */ } from 'swiper/vue'
-  import { directive } from 'vue-awesome-swiper'
-  import 'swiper/swiper-bundle.css'
-  import 'swiper/swiper.css'
-
-    export default {
+import { Swiper, SwiperSlide, directive /* rest swiper/vue API... */ } from 'swiper/vue'
+import 'swiper/swiper-bundle.css'
+export default {
       name: 'CertificationAndSDK',
       components: {
         Swiper,

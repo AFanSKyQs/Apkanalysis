@@ -38,7 +38,7 @@
                                               <li><a href="#baseInfoOne" class="card">基本信息分析</a></li>
                                               <li><a href="#Permission" class="card">权限分析</a>
                                                 <ul>
-                                                  <li><a href="https://blog.csdn.net/hanhan1016/article/details/105863586" target="_blank">点击了解：<br>普通权限<br>敏感权限<br>危险权限</a></li>
+                                                  <li><a href="https://blog.csdn.net/hanhan1016/article/details/105863586" target="_blank">普通权限<br>敏感权限<br>危险权限</a></li>
                                                 </ul>
                                               </li>
                                               <li><a href="#CertificationAndSDK" class="card">调证和SDK</a></li>
@@ -143,10 +143,10 @@
 /*分隔*/
 .card {
   /*字体大小*/
-  font-size: 18px;
+  font-size: 20px;
   display: flex;
   --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
-  width: 140px;
+  width: 150px;
   height: 50px;
   padding: 15px;
   border-radius: 3rem;

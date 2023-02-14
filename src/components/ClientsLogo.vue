@@ -53,14 +53,11 @@
 
 <script>
 import { Swiper, SwiperSlide, directive /* rest swiper/vue API... */ } from 'swiper/vue'
-// import { Swiper, SwiperSlide, directive /* rest swiper/vue API... */ } from 'vue-awesome-swiper';
 import 'swiper/swiper-bundle.css'
-
     export default {
       name: 'ClientsLogo',
       components: {
         Swiper,
-        // eslint-disable-next-line vue/no-unused-components
         SwiperSlide
       },
       directives: {

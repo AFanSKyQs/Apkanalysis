@@ -70,7 +70,7 @@
 /* eslint-disable vue/multi-word-component-names */
 // import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper';
 // import 'swiper/css/swiper.css';
-import { Swiper, SwiperSlide, directive /* rest swiper/vue API... */ } from 'swiper/vue'
+import { Swiper, SwiperSlide/* rest swiper/vue API... */ } from 'swiper/vue'
 import 'swiper/swiper-bundle.css'
 
 export default {
@@ -79,9 +79,9 @@ export default {
     Swiper,
     SwiperSlide
   },
-  directives: {
-    swiper: directive
-  },
+  // directives: {
+  //   swiper: directive
+  // },
   data () {
     return {
       swiperOptions: {

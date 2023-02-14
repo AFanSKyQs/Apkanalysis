@@ -32,11 +32,10 @@ module.exports = {
       {
         code: 600
       }]
-  },
-
-  extends: [
-    'plugin:vue/essential',
-    '@vue/standard',
-    '@vue/typescript/recommended'
-  ]
+  }
+  // extends: [
+  //   'plugin:vue/essential',
+  //   '@vue/standard',
+  //   '@vue/typescript/recommended'
+  // ]
 }
