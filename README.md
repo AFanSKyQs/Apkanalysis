@@ -18,6 +18,10 @@
 ```
 git clone https://github.com/AFanSKyQs/Apkanalysis.git
 ```
+```
+cd Apkanalysis
+```
+
 ## 2.安装项目依赖
 
 ```
