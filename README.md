@@ -1,7 +1,7 @@
 <div align="center">
 
 [//]: # (<h1>ApkAnalysis</h1>)
-  <img src="https://raw.githubusercontent.com/AFanSKyQs/Apkanalysis/main/Bglogo.png" alt="LogoImg">
+  <img src="https://i.imgtg.com/2023/02/14/dBuxC.png" alt="LogoImg">
 <br>
  <img src="https://count.getloli.com/get/@:fansky_qs?theme=asoul" /><br>
 
