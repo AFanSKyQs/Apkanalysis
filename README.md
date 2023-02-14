@@ -18,17 +18,18 @@
 ```
 git clone https://github.com/AFanSKyQs/Apkanalysis.git
 ```
+## 2.进入项目路径（编辑器如IDEA可忽略）
 ```
 cd Apkanalysis
 ```
 
-## 2.安装项目依赖
+## 3.安装项目依赖
 
 ```
 pnpm install
 ```
 
-## 3.用于开发环境的热重载和编译
+## 4.启动：用于开发环境的热重载和编译
 ```
 pnpm run serve
 ```
