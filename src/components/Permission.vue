@@ -153,6 +153,9 @@ export default {
 }
 
 .container .box {
+  /*窗口往左平移一点点*/
+transform: translateX(5%);
+  position: relative;
   /*width: 11.875em;*/
   width: 30em;
   /*height: 15.875em;*/
