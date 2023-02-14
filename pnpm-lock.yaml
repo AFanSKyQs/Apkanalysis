@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@element-plus/icons-vue': ^2.0.10
   '@typescript-eslint/eslint-plugin': ^5.4.0
   '@typescript-eslint/parser': ^5.4.0
   '@vue/cli-plugin-babel': ~5.0.0
@@ -24,6 +25,7 @@ specifiers:
   ts-loader: ^9.4.2
   typescript: ~4.5.5
   vue: ^3.2.13
+  vue-awesome-swiper: ^5.0.1
   vue-class-component: ^7.2.6
   vue-cli-plugin-element-plus: ^0.0.13
   vue-count-to: ^1.0.13
@@ -40,11 +42,11 @@ dependencies:
   vue: registry.npmmirror.com/vue/3.2.47
   vue-class-component: registry.npmmirror.com/vue-class-component/7.2.6_vue@3.2.47
   vue-count-to: registry.npmmirror.com/vue-count-to/1.0.13
-  vue-observe-visibility: registry.npmmirror.com/vue-observe-visibility/1.0.0
   vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47
   vuex: registry.npmmirror.com/vuex/4.1.0_vue@3.2.47
 
 devDependencies:
+  '@element-plus/icons-vue': registry.npmmirror.com/@element-plus/icons-vue/2.0.10_vue@3.2.47
   '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin/5.51.0_ez27ypgegfn5jtjb2iiiwhux7e
   '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/5.51.0_sgaiclxgc5mltnpgmg7py4v6ca
   '@vue/cli-plugin-babel': registry.npmmirror.com/@vue/cli-plugin-babel/5.0.8_7ph6shlzjohpivu3kkpbskat2a
@@ -64,8 +66,10 @@ devDependencies:
   sass-loader: registry.npmmirror.com/sass-loader/12.6.0_sass@1.58.0
   ts-loader: registry.npmmirror.com/ts-loader/9.4.2_typescript@4.5.5
   typescript: registry.npmmirror.com/typescript/4.5.5
+  vue-awesome-swiper: registry.npmmirror.com/vue-awesome-swiper/5.0.1_swiper@9.0.4+vue@3.2.47
   vue-cli-plugin-element-plus: registry.npmmirror.com/vue-cli-plugin-element-plus/0.0.13
   vue-loader: registry.npmmirror.com/vue-loader/17.0.1_vue@3.2.47
+  vue-observe-visibility: registry.npmmirror.com/vue-observe-visibility/1.0.0
   vue-template-compiler: registry.npmmirror.com/vue-template-compiler/2.7.14
 
 packages:
@@ -1594,6 +1598,17 @@ packages:
       '@babel/helper-string-parser': registry.npmmirror.com/@babel/helper-string-parser/7.19.4
       '@babel/helper-validator-identifier': registry.npmmirror.com/@babel/helper-validator-identifier/7.19.1
       to-fast-properties: registry.npmmirror.com/to-fast-properties/2.0.0
+
+  registry.npmmirror.com/@element-plus/icons-vue/2.0.10_vue@3.2.47:
+    resolution: {integrity: sha512-ygEZ1mwPjcPo/OulhzLE7mtDrQBWI8vZzEWSNB2W/RNCRjoQGwbaK4N8lV4rid7Ts4qvySU3njMN7YCiSlSaTQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@element-plus/icons-vue/-/icons-vue-2.0.10.tgz}
+    id: registry.npmmirror.com/@element-plus/icons-vue/2.0.10
+    name: '@element-plus/icons-vue'
+    version: 2.0.10
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      vue: registry.npmmirror.com/vue/3.2.47
+    dev: true
 
   registry.npmmirror.com/@element-plus/icons/0.0.11:
     resolution: {integrity: sha512-iKQXSxXu131Ai+I9Ymtcof9WId7kaXvB1+WRfAfpQCW7UiAMYgdNDqb/u0hgTo2Yq3MwC4MWJnNuTBEpG8r7+A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@element-plus/icons/-/icons-0.0.11.tgz}
@@ -8762,7 +8777,6 @@ packages:
     resolution: {integrity: sha512-ISv/Ch+ig7SOtw7G2+qkwfVASzazUnvlDTwypdLoPoySv+6MqlOV10VwPSE6EWkGjhW50lUmghPmpYZXMu/+AQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ssr-window/-/ssr-window-4.0.2.tgz}
     name: ssr-window
     version: 4.0.2
-    dev: false
 
   registry.npmmirror.com/ssri/8.0.1:
     resolution: {integrity: sha512-97qShzy1AiyxvPNIkLWoGua7xoQzzPjQ0HAH4B0rWKo7SZ6USuPcrUiAFrws0UH8RrbWmgq3LMTObhPIHbbBeQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ssri/-/ssri-8.0.1.tgz}
@@ -8987,7 +9001,6 @@ packages:
     engines: {node: '>= 4.7.0'}
     dependencies:
       ssr-window: registry.npmmirror.com/ssr-window/4.0.2
-    dev: false
 
   registry.npmmirror.com/table/6.8.1:
     resolution: {integrity: sha512-Y4X9zqrCftUhMeH2EptSSERdVKt/nEdijTOacGD/97EKjhQ/Qs8RTlEGABSJNNN8lac9kheH+af7yAkEWlgneA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/table/-/table-6.8.1.tgz}
@@ -9399,6 +9412,19 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
+  registry.npmmirror.com/vue-awesome-swiper/5.0.1_swiper@9.0.4+vue@3.2.47:
+    resolution: {integrity: sha512-mWjFJzUqA4lG+DmsmibvMpoiBnl+IH2SSeiiQ3i5M0t1y9FknTxnGT0DsMb2YdJLgjYMEK3sYOWzqgLnZMH8Lg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-awesome-swiper/-/vue-awesome-swiper-5.0.1.tgz}
+    id: registry.npmmirror.com/vue-awesome-swiper/5.0.1
+    name: vue-awesome-swiper
+    version: 5.0.1
+    peerDependencies:
+      swiper: ^7.0.0  || ^8.0.0
+      vue: 3.x
+    dependencies:
+      swiper: registry.npmmirror.com/swiper/9.0.4
+      vue: registry.npmmirror.com/vue/3.2.47
+    dev: true
+
   registry.npmmirror.com/vue-class-component/7.2.6_vue@3.2.47:
     resolution: {integrity: sha512-+eaQXVrAm/LldalI272PpDe3+i4mPis0ORiMYxF6Ae4hyuCh15W8Idet7wPUEs4N4YptgFHGys4UrgNQOMyO6w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-class-component/-/vue-class-component-7.2.6.tgz}
     id: registry.npmmirror.com/vue-class-component/7.2.6
@@ -9580,7 +9606,7 @@ packages:
     resolution: {integrity: sha512-s5TFh3s3h3Mhd3jaz3zGzkVHKHnc/0C/gNr30olO99+yw2hl3WBhK3ng3/f9OF+qkW4+l7GkmwfAzDAcY3lCFg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-observe-visibility/-/vue-observe-visibility-1.0.0.tgz}
     name: vue-observe-visibility
     version: 1.0.0
-    dev: false
+    dev: true
 
   registry.npmmirror.com/vue-router/4.1.6_vue@3.2.47:
     resolution: {integrity: sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-router/-/vue-router-4.1.6.tgz}
