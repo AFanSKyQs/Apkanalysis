@@ -80,7 +80,6 @@
       </div>
 </template>
 <script setup lang="ts">
-import { Check, UploadFilled } from '@element-plus/icons-vue'
 import { ref } from 'vue'
 import type { UploadInstance } from 'element-plus'
 const uploadRef = ref<UploadInstance>()
