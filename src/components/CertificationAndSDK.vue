@@ -65,8 +65,10 @@
 <script>
   // import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper';
   // import 'swiper/css/swiper.css';
-  import { Swiper, SwiperSlide, directive /* rest swiper/vue API... */ } from 'swiper/vue'
+  import { Swiper, SwiperSlide/* rest swiper/vue API... */ } from 'swiper/vue'
+  import { directive } from 'vue-awesome-swiper'
   import 'swiper/swiper-bundle.css'
+  import 'swiper/swiper.css'
 
     export default {
       name: 'CertificationAndSDK',
