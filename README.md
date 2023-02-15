@@ -46,3 +46,6 @@ pnpm run lint
 
 ### 自定义配置
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### 预览
+<img src="https://github.com/AFanSKyQs/Apkanalysis/blob/main/view.png" alt="View">
